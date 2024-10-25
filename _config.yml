@@ -4,7 +4,7 @@ with:
       # List paths to cache
       node_modules
       # Do not cache the _site folder
-    key: ${{ runner.os }}-build-${{ hashFiles('**/storage') }}
+    key: ${{ runner.os }}-build-${{ hashFiles('**./storage') }}
 
 
 exclude:
