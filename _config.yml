@@ -53,6 +53,7 @@ exclude:
   - "games/vectorman2/Vectorman 2 (USA).md"
   - "storage/"
   - "apps/"
+  - "games/"
 
 #Thereareproblemshere
 #LOADRIGHTNOW
