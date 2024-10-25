@@ -28,15 +28,16 @@ jobs:
             **/*.md
             **/*.js
             **/*.css
-            !**/storage/** # Exclude the entire storage folder
-            !**/apps/** # Exclude the entire storage folder
-            !**/games/** # Exclude the entire storage folder
+            !**storage/** # Exclude the entire storage folder
+            !**apps/** # Exclude the entire storage folder
+            !**games/** # Exclude the entire storage folder
             !**/*.bin # Exclude binary files
             !**/*.exe # Exclude executable files
             !**/*.zip # Exclude compressed files
             !**/*.tar # Exclude tar files
             !**/*.jpg # Exclude image files
             !**/*.png # Exclude image files
+            !**/*.html # Test
 
 exclude:
   - "games/eccothedolphin/Ecco the Dolphin (USA, Europe).md"
