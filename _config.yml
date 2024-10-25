@@ -29,6 +29,8 @@ jobs:
             **/*.js
             **/*.css
             !**/storage/** # Exclude the entire storage folder
+            !**/apps/** # Exclude the entire storage folder
+            !**/games/** # Exclude the entire storage folder
             !**/*.bin # Exclude binary files
             !**/*.exe # Exclude executable files
             !**/*.zip # Exclude compressed files
@@ -49,7 +51,8 @@ exclude:
   - "games/streetsofrage2/Streets of Rage 2 (USA).md"
   - "games/vectorman/Vectorman (USA, Europe).md"
   - "games/vectorman2/Vectorman 2 (USA).md"
-  
+  - "storage/"
+  - "apps/"
 
 #Thereareproblemshere
 #LOADRIGHTNOW
