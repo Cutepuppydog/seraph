@@ -1,11 +1,3 @@
-uses: actions/cache@v3
-with:
-    path: |
-      # List paths to cache
-      node_modules
-      # Do not cache the _site folder
-    key: ${{ runner.os }}-build-${{ hashFiles('**./storage') }}
-
 
 exclude:
   - "games/eccothedolphin/Ecco the Dolphin (USA, Europe).md"
@@ -20,12 +12,7 @@ exclude:
   - "games/streetsofrage2/Streets of Rage 2 (USA).md"
   - "games/vectorman/Vectorman (USA, Europe).md"
   - "games/vectorman2/Vectorman 2 (USA).md"
-name: Deploy to GitHub Pages
 
-on:
-  push:
-    branches:
-      - main
 
 
 
