@@ -38,22 +38,20 @@ jobs:
             !**/*.jpg # Exclude image files
             !**/*.png # Exclude image files
 
-#exclude:
-  #- "games/eccothedolphin/Ecco the Dolphin (USA, Europe).md"
-  #- "games/gunstarheroes/Gunstar Heroes (USA).md"
-  #- "games/phantasystariv/Phantasy Star IV (USA).md"
-  #- "games/rangerx/Ranger X (Europe).md"
-  #- "games/ristar/Ristar (USA, Europe) (August 1994).md"
-  #- "games/shiningforce/Shining Force (USA).md"
-  #- "games/shinobiiii/Shinobi III - Return of the Ninja Master (USA).md"
-  #- "games/sonicthehedgehog/Sonic The Hedgehog (USA, Europe).md"
-  #- "games/sonicthehedgehog2/Sonic The Hedgehog 2 (World).md"
-  #- "games/streetsofrage2/Streets of Rage 2 (USA).md"
-  #- "games/vectorman/Vectorman (USA, Europe).md"
-  #- "games/vectorman2/Vectorman 2 (USA).md"
-  #- "storage/"
-  #- "apps/"
-  #- "games/"
+exclude:
+  - "games/eccothedolphin/Ecco the Dolphin (USA, Europe).md"
+  - "games/gunstarheroes/Gunstar Heroes (USA).md"
+  - "games/phantasystariv/Phantasy Star IV (USA).md"
+  - "games/rangerx/Ranger X (Europe).md"
+  - "games/ristar/Ristar (USA, Europe) (August 1994).md"
+  - "games/shiningforce/Shining Force (USA).md"
+  - "games/shinobiiii/Shinobi III - Return of the Ninja Master (USA).md"
+  - "games/sonicthehedgehog/Sonic The Hedgehog (USA, Europe).md"
+  - "games/sonicthehedgehog2/Sonic The Hedgehog 2 (World).md"
+  - "games/streetsofrage2/Streets of Rage 2 (USA).md"
+  - "games/vectorman/Vectorman (USA, Europe).md"
+  - "games/vectorman2/Vectorman 2 (USA).md"
+ 
 
 #Thereareproblemshere
 #LOADRIGHTNOW
