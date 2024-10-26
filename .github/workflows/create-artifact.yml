@@ -1,4 +1,4 @@
-name: Create index.html Artifact
+name: Build and Deploy to GitHub Pages
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main  # or whichever branch you want to trigger the action
 
 jobs:
-  create-artifact:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -16,3 +16,14 @@ jobs:
         with:
           name: index-html
           path: index.html
+      
+      # Add your build steps here if needed
+      # For example:
+      # - name: Build project
+      #   run: npm run build
+      
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./  # or your build directory if you have one
